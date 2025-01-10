@@ -1,0 +1,22 @@
+# k8s/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-http-server
+  labels:
+    app: simple-http-server
+spec:
+  replicas: 2  # Two replicas for high availability
+  selector:
+    matchLabels:
+      app: simple-http-server
+  template:
+    metadata:
+      labels:
+        app: simple-http-server
+    spec:
+      containers:
+      - name: simple-http-server
+        image: <your-docker-username>/simple-http-server:latest
+        ports:
+        - containerPort: 8080

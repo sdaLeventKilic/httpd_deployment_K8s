@@ -80,14 +80,6 @@ resources:
 ```bash
 kubectl apply -f k8s/
 ```
-### 2. Using Helm
-```bash
-helm install simple-http-server helm/
-```
-### 3. Using Kustomize
-```bash
-kubectl apply -k k8s/
-```
 ---
 ## Testing
 ### Access the Application

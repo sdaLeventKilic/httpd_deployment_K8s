@@ -65,15 +65,6 @@ name: simple-http-server
 port:
 number: 80
 ```
-### Kustomize
-**`k8s/kustomization.yaml`**
-```yaml
-resources:
-- deployment.yaml
-- service.yaml
-- ingress.yaml
-```
-```
 ---
 ## Deployment Guide
 ### 1. Using `kubectl`

